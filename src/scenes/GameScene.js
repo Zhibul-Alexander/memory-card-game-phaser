@@ -7,9 +7,9 @@ export default class GameScene extends Phaser.Scene {
 
   preload() {
     for (let i = 1; i <= 10; i++) {
-      this.load.image(`card${i}`, `src/assets/card${i}.jpg`)
+      this.load.image(`card${i}`, `assets/card${i}.jpg`)
     }
-    this.load.image('back', 'src/assets/back.jpg')
+    this.load.image('back', 'assets/back.jpg')
   }
 
   create() {
